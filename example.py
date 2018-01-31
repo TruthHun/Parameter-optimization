@@ -1,9 +1,4 @@
-# 参数优化(股票+期货)
-基于循环遍历回测的参数优化方法
-
-## 源码
-```python
-# coding=utf-8
+﻿# coding=utf-8
 from __future__ import print_function, absolute_import, unicode_literals
 
 import multiprocessing
@@ -101,4 +96,3 @@ if __name__ == '__main__':
     # 回测报告排序
     final = final.sort_values(axis=0, ascending=False, by='pnl_ratio')
     print(final)
-```
